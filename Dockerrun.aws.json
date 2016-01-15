@@ -1,0 +1,17 @@
+{
+ "AWSEBDockerrunVersion": "1",
+   "Image": {
+    "Name": "rogueunicorn/hello_phoenix",
+    "Update": "true"
+  },
+ "Authentication": {
+   "Bucket": "elasticbeanstalk-us-west-2-hello-phoenix",
+   "Key": "docker-config.json"
+ },
+ "Volumes": [],
+ "Ports": [
+   {
+     "ContainerPort": "80"
+   }
+ ]
+}
